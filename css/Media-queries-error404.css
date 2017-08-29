@@ -1,0 +1,96 @@
+@media screen and (min-width:240px) and (max-width:479px) {
+    .error h1{
+        font-size: 170px;
+    }
+
+    .error h2{
+        font-size: 12px;
+        letter-spacing: 10px;
+        padding-top: 8px;
+    }
+
+    .search input {
+        width: 250px;
+    }
+
+    .search a {
+        font-size: 12px;
+        padding: 18px 10px  ;
+    }
+
+    .fa.fa-search{
+        display: block;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 12px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+}
+   
+
+@media screen and (min-width:480px) and (max-width:892px){
+
+    .error h1{
+        font-size: 230px;
+    }
+
+    .error h2{
+        font-size: 14px;
+        letter-spacing: 15px;
+        padding-top: 8px;
+    }
+
+    .search input {
+        width: 290px;
+    }
+
+    .fa.fa-search{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:799px) and (max-width:959px){
+
+    .fa.fa-search{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:959px) and (max-width:1199px){
+  
+    
+}
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}

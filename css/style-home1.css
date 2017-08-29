@@ -1,0 +1,730 @@
+
+body{
+    max-width: 1920px;
+    background-color: #98a0ad;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+
+    max-width: 1640px;
+    margin: 0 auto;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.header_bg {
+    position: absolute;
+    background-color: rgb(33, 36, 41);
+    width: 100%;
+    height: 50%;
+}
+
+.header-wh{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(33, 36, 41);
+}
+
+.menu{
+    margin-left: 55px;
+    height: 54px;
+    width: 54px;
+    border-left: 1px solid #3c3c3c;
+    border-right: 1px solid #3c3c3c;
+}
+
+.menu a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.menu a:hover{
+    background-color: #1c1c1c;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px
+
+}
+
+.deco {
+    width: 76px;
+    height: 16px;
+    margin-left: 75%;
+}
+
+.blog {
+    font-size: 20px;
+    font-family: "Hind";
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    line-height: 1.333;
+    letter-spacing: 3px;
+    margin: 5px 0 0 10px;
+}
+
+.social-container{
+    margin-right: 50px;
+    width: 278px;
+    height: 54px;
+}
+
+.social-container ul{
+    width: 278px;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-container ul li{
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 54px;
+    cursor: pointer;
+    text-decoration: none;
+    border-left: 1px solid #3c3c3c;
+}
+
+.social-container a:hover{
+    background-color: #1c1c1c;
+}
+
+.social-container ul li a.border-right{
+    border-right: 1px solid #3c3c3c;
+}
+
+.social-container ul li a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.header-image{
+    margin: 0 auto;
+    background-image: url(img/image.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 93%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.header-image-text{
+    position: absolute;
+    top: 37%;
+    left: 4%;
+    width: 40%;
+    height: 180px;
+}
+
+.latest {
+    position: relative;
+    font-size: 18px;
+    font-family: "Hind";
+    font-weight:700;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 80%;
+    margin: 0 0 0 2px;
+}
+
+
+h1 {
+    position: absolute;
+    width: 80%;
+    font-size: 40px;
+    font-family: "Hind";
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: left;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.44);
+    margin: 15px 0 0 0;
+}
+
+/*FORM*/
+
+.form{
+    width: 93%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.form .row{
+    width: 100%;
+    margin: 0;
+}
+
+.form .col-lg-2,.col-lg-4,.col-md-3,.col-sm-12 {
+    margin-top: 30px;
+}
+
+.form h3{
+    font-family: 'Montserrat';
+    font-weight:900;
+    letter-spacing: 4px;
+    line-height: 1.4;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:0;
+}
+
+form.contact-form{
+    height: 100%;
+}
+
+input{
+
+}
+
+.form-name{
+    width: 100%;
+    height: 50px;
+    margin: 0 30px 0 0;
+}
+
+.form-name #name{
+    width: 100%;
+    height: 50px;
+    font-family: "Hind";
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.form-email{
+    width: 100%;
+    height: 50px;
+    margin: 0 65px 0 0;
+}
+
+.form-email #email{
+    width: 100%;
+    height: 50px;
+    font-family: "Hind";
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+}
+
+.col-lg-2 .subscription{
+    margin-bottom: 30px;
+}
+
+.subscription{
+    width: 100%;
+    height: 50px;
+
+}
+
+.botton{
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    border: 0;
+    font-family: "Hind";
+    font-weight:600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+/*CONTENT*/
+
+.content{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/*.content .col-lg-3, .col-md-4, .col-sm-12{*/
+    /*padding: 0;*/
+/*}*/
+
+.travel{
+    position: relative;
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+i.fa.fa-pencil-square::before{
+    position: absolute;
+    top: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 30px;
+
+}
+
+article{
+    width: 100%;
+
+}
+
+.travel a.read-more{
+    display: block;
+    width: 130px;
+    height: 30px;
+    font-family: "Hind";
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 8px;
+    color: #212121;
+    text-align: center;
+    margin: 0 auto 30px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+
+h4{
+    font-family: "Hind";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-top: 30px;
+}
+
+h2{
+    font-family: "Hind";
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+ .travel time{
+    font-family: "Hind";
+    font-size: 17px;
+    color: #999999;
+    margin: 20px 0;
+
+}
+
+.travel p {
+    font-family: "Hind";
+    font-size: 15px;
+    text-align:justify;
+    font-weight: 400;
+    color: #464646;
+    margin: 6px 20px 40px 20px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.comments-social{
+    width: 90%;
+    height: 40px;
+    margin: 0 0 0 20px;
+
+}
+
+i.fa.fa-comments-o::before{
+    color: #212121;
+}
+
+.comments{
+    width: 50%;
+    font-family: "Hind";
+    font-size: 14px;
+    color: #999999;
+    text-transform: uppercase;
+    float: left;
+    text-align: left;
+}
+
+.number-comments {
+    font-family: "Hind";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+}
+.no-comments{
+    font-family: "Hind";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+}
+
+.social {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+.social ul li{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 3px;
+    width: 22%;
+    height: 100%;
+}
+
+.social li a {
+    padding: 10px;
+}
+
+.social li i{
+    color: #464646;
+    width: 100%;
+}
+
+/*COMMENTS*/
+
+.block-comments{
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #212429;
+    margin-bottom: 40px;
+}
+
+.fa.fa-quote-left:before{
+    position:absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    background-color: #fff;
+
+}
+
+.block-comments p{
+    margin-top: 16px;
+    font-size: 17px;
+    color: #fff;
+}
+
+p.block-comments-name {
+    font-family: 'Hind';
+    font-weight:300;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*IMAGE*/
+
+.travel .images{
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.icon-image{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 30px;
+}
+
+.travel .images img.picture{
+    width: 100%;
+    height: 100%;
+}
+
+/*VIDEO*/
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    margin-bottom: 40px;
+}
+
+.video video{
+    position:absolute;
+    left: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.video img {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 30px;
+}
+
+/*LINK*/
+
+.link{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 175px;
+    background-color: #212429;
+    margin-bottom: 40px;
+}
+
+.link img{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.link a{
+    display: inline-block;
+    font-family: "Hind";
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 290px;
+    background-color: #212429;
+    margin-bottom: 40px;
+}
+
+.container img{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #212429;
+    margin: 0 auto;
+}
+
+footer .col-lg-3, footer .col-md-3, footer .col-sm-12{
+    margin: 0 0 40px 0;
+}
+
+footer h5{
+    width: 90%;
+    margin: 45px 0 35px 8px;
+    font-family: 'Montserrat';
+    font-weight:900;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer p, span{
+    font-family: 'Hind';
+    font-weight:300;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: normal;
+    color: #fff;
+}
+
+footer .about-blog{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+
+footer .about-blog p{
+    width: 90%;
+    margin: 0 0 10px 4px;
+}
+
+.natali{
+    position: relative;
+    width:  90%;
+    height: 147px;
+    background-color: #3a3c49;
+}
+
+.natali p.nathalia{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    width: auto;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 36px;
+    color: #fff;
+    transform: rotate(-9deg);
+}
+
+footer .tweets{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+footer .tweets h5{
+    margin-bottom: 0;
+}
+
+footer .tweets i{
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    margin: 35px 3px 6px 8px;
+}
+
+footer .tweets.fa.fa-twitter{
+
+}
+
+footer .tweets i p{
+    display: inline-block;
+    font-family: 'Hind';
+    font-weight:300;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 7px;
+}
+
+footer .tweets p{
+    margin-left: 30px;
+}
+
+footer .instagram{
+    width: 100%;
+    height: 100%;
+
+}
+
+footer .instagram .inst-conteiner{
+    margin-left: 10px;
+}
+
+.inst-conteiner{
+    width: 90%;
+    height: 200px;
+    background-color: #fff;
+}
+
+.inst-conteiner .inst-conteiner-lit{
+    float: left;
+    height: 100px;
+    width: 33.3333%;
+    border: 1px solid #212429;
+}
+
+footer .comment{
+    width: 100%;
+    height: 100%;
+
+}
+
+footer .comment .developer{
+    width: 90%;
+    margin-left: 10px;
+}
+
+footer .comment .developer p{
+    margin-top: 10px;
+}
+
+footer .comment .developer hr{
+    margin: 20px auto;
+}
+
+.footer-copyright{
+    background-color: #17191c;
+}
+
+.copyright-text{
+    text-align: center;
+    height: 42px;
+    font-family: 'Hind';
+    font-weight:400;
+    font-size: 15px;
+    color: #747577;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 100%;
+    padding-top: 10px;
+}

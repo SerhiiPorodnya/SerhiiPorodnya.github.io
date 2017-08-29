@@ -1,0 +1,287 @@
+@media screen and (min-width:240px) and (max-width:479px) {
+    .menu {
+        display: none;
+    }
+
+    .social-container {
+        display: none;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .deco {
+        margin: 0;
+    }
+
+    .header-image-text {
+        width: 60%
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    /*.content p{*/
+        /*margin: 20px 20px 40px 20px;*/
+        /*font-size: 15px;*/
+    /*}*/
+
+    .link a{
+        font-size: 15px;
+    }
+
+    .comments{
+        width: 130px;
+    }
+
+    .no-comments{
+        font-size: 13px;
+    }
+
+    .number-comments{
+        font-size: 13px;
+    }
+
+    .like{
+        display: none;
+    }
+
+    .content-box{
+        margin: 0;
+    }
+
+    .sidebar{
+        padding-left: 0;
+    }
+
+    .sidebar-img-top, .sidebar-img-bottom{
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    .all-post{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .all-post-img{
+        width: 75%;
+    }
+
+    footer .tweets, footer .instagram, footer .comment{
+        border-top: 2px solid #fff;
+        padding-left: 20px;
+    }
+    
+    .copyright-text{
+        font-size: 12px;
+    }
+
+    .comments-social{
+        display: none;
+    }
+
+    .post-slider{
+        display: none;
+    }
+
+    .all-post-social{
+        display: none;
+    }
+
+
+    .recomended-post{
+        display: none;
+    }
+}
+   
+
+@media screen and (min-width:480px) and (max-width:892px){
+    .social-container{
+        margin-right: 0
+    }
+    .menu{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .deco{
+        margin: 0;
+    }
+    .header-image-text{
+        width: 80%;
+    }
+    
+    h1{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    /*.content p{*/
+        /*margin: 20px 20px 40px 20px;*/
+        /*font-size: 15px;*/
+    /*}*/
+
+    .link a{
+        font-size: 15px;
+    }
+
+    .no-comments{
+        font-size: 13px;
+    }
+
+    .number-comments{
+        font-size: 13px;
+    }
+
+    .social{
+        margin-right: 20px;
+    }
+
+    .content-box{
+        margin: 0;
+    }
+
+    .sidebar{
+        width: 57%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .sidebar-img-top, .sidebar-img-bottom{
+        background-size: contain;
+        background-position: center;
+    }
+
+
+
+    footer .tweets, footer .instagram, footer .comment{
+     border-top: 2px solid #fff;
+        padding-left: 20px;
+    }
+    
+    
+    .instagram h5{
+        width: 115%;
+    }
+    
+    .copyright-text{
+        font-size: 12px;
+    }
+
+    .all-post-social{
+        display: none;
+    }
+
+    .comments-social{
+        display: none;
+    }
+
+    .recomended-post{
+        display: none;
+    }
+
+    .all-post-soc span, .all-post-soc a i {
+        font-size: 14px;
+    }
+
+
+    .all-post-soc a  {
+        width: 45px;
+        height: 40px;
+    }
+
+    .post-slider{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width:799px) and (max-width:959px){
+    .social-container{
+        margin-right:33px;
+    }
+
+    .sidebar{
+        width: 57%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    
+    .instagram h5{
+        width: 115%;
+    }
+
+    .all-post-social span, .all-post-social a i {
+        font-size: 14px;
+    }
+
+    .all-post-soc a  {
+        font-size: 14px;
+        width: 50px;
+        height: 40px;
+    }
+
+    .recomended-post-img{
+        height: 170px;
+    }
+
+    .popularit{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width:959px) and (max-width:1199px){
+
+    .all-post-soc span, .all-post-soc a i {
+        font-size: 14px;
+    }
+
+    .recomended-post-img{
+        height: 170px;
+    }
+
+    .popularit{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+

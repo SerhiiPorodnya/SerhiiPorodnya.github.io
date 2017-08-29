@@ -1,0 +1,201 @@
+@media screen and (min-width:240px) and (max-width:479px) {
+    .menu {
+        display: none;
+    }
+
+    .social-container {
+        display: none;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .deco {
+        margin: 0;
+    }
+
+    .header-image-text {
+        width: 60%
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .content p{
+        margin: 20px 20px 40px 20px;
+        font-size: 15px;
+    }
+
+    .link a{
+        font-size: 15px;
+    }
+
+    .comments{
+        width: 130px;
+    }
+
+    .no-comments{
+        font-size: 13px;
+    }
+
+    .number-comments{
+        font-size: 13px;
+    }
+
+    .like{
+        display: none;
+    }
+
+    .content-box{
+        margin: 0;
+    }
+
+    .sidebar{
+        padding-left: 0;
+    }
+
+    .sidebar-img-top, .sidebar-img-bottom{
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    footer .tweets, footer .instagram, footer .comment{
+        border-top: 2px solid #fff;
+        padding-left: 20px;
+    }
+    
+    .copyright-text{
+        font-size: 12px;
+    }
+}
+   
+
+@media screen and (min-width:480px) and (max-width:892px){
+    .social-container{
+        margin-right: 0
+    }
+    .menu{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .deco{
+        margin: 0;
+    }
+    .header-image-text{
+        width: 80%;
+    }
+    
+    h1{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .content p{
+        margin: 20px 20px 40px 20px;
+        font-size: 15px;
+    }
+
+    .link a{
+        font-size: 15px;
+    }
+
+    .no-comments{
+        font-size: 13px;
+    }
+
+    .number-comments{
+        font-size: 13px;
+    }
+
+    .social{
+        margin-right: 20px;
+    }
+
+    .content-box{
+        margin: 0;
+    }
+
+    .sidebar{
+        width: 57%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .sidebar-img-top, .sidebar-img-bottom{
+        background-size: contain;
+        background-position: center;
+    }
+
+    footer .tweets, footer .instagram, footer .comment{
+     border-top: 2px solid #fff;
+        padding-left: 20px;
+    }
+    
+    
+    .instagram h5{
+        width: 115%;
+    }
+    
+    .copyright-text{
+        font-size: 12px;
+    }
+    
+}
+
+
+@media screen and (min-width:799px) and (max-width:959px){
+    .social-container{
+        margin-right:33px;
+    }
+
+    .sidebar{
+        width: 57%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    
+    .instagram h5{
+        width: 115%;
+    }
+    
+}
+
+
+@media screen and (min-width:959px) and (max-width:1199px){
+  
+    
+}
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
